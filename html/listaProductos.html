@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Navigation bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="https://seeklogo.com/images/P/puma-se-logo-ACC0F72575-seeklogo.com.png" width="30" height="30"
+                    class="d-inline-block align-top" alt="">
+                Athlead
+            </a>
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Profile
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Look Profile</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cart</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Side Bar Menu -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <span data-feather="home"></span>
+                                <h4 style="color: gray;"> <b> Marcas:</b> </h4> <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file"></span>
+                                Adidas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="shopping-cart"></span>
+                                Nike
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="users"></span>
+                                UnderArmour
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="bar-chart-2"></span>
+                                DKS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="layers"></span>
+                                Puma
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h6
+                        class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span> <b> Precio </b> </span>
+                        <a class="d-flex align-items-center text-muted" href="#">
+                            <span data-feather="plus-circle"></span>
+                        </a>
+                    </h6>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file-text"></span>
+                                $0-$1000 mxn
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file-text"></span>
+                                $1000-$2000 mxn
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file-text"></span>
+                                $2000-$3000 mxn
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file-text"></span>
+                                $3000-$5000 mxn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main role="main">
+                <div class="album py-5 bg-light">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="https://dsw.scene7.com/is/image/DSWShoes/439139_415_ss_01?$pdp-image$"
+                                        class="img-fluid" alt="Responsive image">
+                                    <div class="card-body">
+                                        <b>Nike zoom KD12</b>
+                                        <p class="card-text">
+                                            An innovative update of the tsugi shinsei with a unique side lacing system
+                                            and a
+                                            fully knitted two-tone upper with ribbed details .</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button"
+                                                    class="btn btn-sm btn-outline-secondary">View </button>
+                                            </div>
+                                            <p> $2,000 mxn</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <footer class="page-footer font-small blue pt-4">
+
+                                    <!-- Footer Links -->
+                                    <div class="container-fluid text-center text-md-left">
+                            
+                                        <!-- Grid row -->
+                                        <div class="row">
+                                            <div class=footerContent>
+                                                <!-- Grid column -->
+                                                <div class="col-md-6 mt-md-0 mt-3">
+                            
+                                                    <!-- Content -->
+                                                    <h5 class="text-uppercase">Customer Support</h5>
+                                                    <p>Here you can use rows and columns to organize your footer content.
+                                                    </p>
+                            
+                                                </div>
+                                            </div>
+                                            <!-- Grid column -->
+                                            <hr class="clearfix w-100 d-md-none pb-3">
+                            
+                                            <!-- Grid column -->
+                                            <div class="col-md-3 mb-md-0 mb-3">
+                            
+                                                <!-- Links -->
+                                                <h5 class="text-uppercase">Help</h5>
+                            
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a href="#!">Order Status
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#!">Shipping and Delivery</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#!">Returns</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#!">
+                                                                Payment options</a>
+                                                    </li>
+                                                </ul>
+                            
+                                            </div>
+                                            <!-- Grid column -->
+                            
+                                            <!-- Grid column -->
+                                            <div class="col-md-3 mb-md-0 mb-3">
+                            
+                                                <!-- Links -->
+                                                <h5 class="text-uppercase">About Athlead</h5>
+                            
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a href="#!">News</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#!">Jobs and application</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#!">Investors</a>
+                                                    </li>
+                                                </ul>
+                            
+                                            </div>
+                                            <!-- Grid column -->
+                            
+                                        </div>
+                                        <!-- Grid row -->
+                            
+                                    </div>
+                                    <!-- Footer Links -->
+                                    </div>
+                                    <!-- Copyright -->
+                                    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                                        <a href="https://mdbootstrap.com/education/bootstrap/"> Athlead.com</a>
+                            
+                                        <!-- Copyright -->
+                            
+                                </footer>
+       
+                            
+
+</body>
+
+</html>
